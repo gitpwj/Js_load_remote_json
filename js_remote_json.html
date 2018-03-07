@@ -1,0 +1,17 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>getJSON获取远程数据</title>
+        <!-- 引用远程json数据 -->
+        <script type="text/javascript" src="https://gitpwj.github.io/Js_load_remote_json/remote.json"></script>
+        <script type="text/javascript">
+        console.log(bd[1].name); //直接访问。
+         //循环打印输出
+        for (var i = 0; i < bd.length; i++) {
+            alert(bd[i].name + " " + bd[i].sex + " " + bd[i].email);
+        }
+        </script>
+    </head>
+    <body></body>
+</html>
