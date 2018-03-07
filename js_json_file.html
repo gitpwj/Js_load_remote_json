@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Generator" content="EditPlus®">
+        <meta name="Author" content="">
+        <meta name="Keywords" content="">
+        <meta name="Description" content="">
+        <title>读取直接赋值的json数据</title>
+        <script type="text/javascript">
+        var data = [{
+                "text": "王家湾",
+                "value": "9"
+            }, {
+                "text": "李家湾",
+                "value": "10"
+            }, {
+                "text": "邵家湾",
+                "value": "13"
+            }];
+        var json = eval(data);
+        for (var i = 0; i < json.length; i++) {
+            alert(json[i].text + " " + json[i].value)
+        }
+        </script>
+    </head>
+    <body></body>
+</html>
