@@ -1,0 +1,19 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+        <title>getJSON获取本地数据</title>
+        <script type="text/javascript">
+        // jQuery.getJSON( url [, data ] [, success ] )
+        $.getJSON("j.json", function (data) {
+            //循环打印输出
+            for (var i = 0; i < data.length; i++) {
+                alert(data[i].name + " " + data[i].sex + " " + data[i].email);
+            }
+        });
+        </script>
+    </head>
+    <body></body>
+</html>
