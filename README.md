@@ -4,5 +4,5 @@
 # js 使用服务器本地文件json文件 （j.json）
 [测试地址](https://gitpwj.github.io/Js_load_remote_json/js_json_local.html)
 
-# js 使用远程服务器json文件 （j.json）
+# js 使用远程服务器json文件 （remote.json 可解决跨域问题）
 [测试地址](https://gitpwj.github.io/Js_load_remote_json/js_remote_json.html)
